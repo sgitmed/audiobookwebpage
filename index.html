@@ -1,0 +1,206 @@
+<!--Create our doctype that will tell the browser what type of page and vertion
+of HTML this is-->
+
+<!-- Create the HTML tage that will contain all of our html code-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Setting the character encoding and configuring the viewpoint so the page
+    is responsive regardless of scale.-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Setting the tab title-->
+    <title>The Lit Lounge</title>
+    <!-- CSS: Cascading Style sheets, helps style the page for us
+    -Inline styles: best for learning, not production. CSS will be injected into the HTML tag as attributes
+    -If you have a 1 page HTML website, then you can do a page level CSS in the head section for the entire page
+    -When you have more than one HTML page in a website, you can use an external CSS page. This will by style.css-->
+
+</head>
+<!-- Styling the body tag with inline CSS-->
+<body style="font-family: Geneva;margin: 20px; background-color: black;">
+    <center>
+    <header>
+        
+        <h1 style="font-size: x-large; color:red">Shadowed Shelves Online Bookshop</h1>
+        <h6 style="color:red">Disclaimer: Stories have been produced by ChatGPT</h6>
+        
+    </header>
+    <!-- Creating the main content section-->
+    <!-- Using a div tag to divide up the page-->
+    <!-- This will be the first story link-->
+    <div style="margin-bottom: 20px;">
+        <h3 style="color: white;">1.  "The Whispering Woods"</h3>
+        <img src="woods.jpg" width="300" height="200">
+        <p style="color: white;">When Mark, Jenny, and Tom venture into the eerie Whispering Woods to debunk local legends, they are confronted by mysterious whispers, ghostly figures, and an overwhelming sense of being watched, forcing them to flee in terror. The experience leaves them haunted and silent about the ordeal, while the forest continues to be a source of fear and legend in Ravenswood.</p>
+    <!-- Create a link to download the first story-->
+    <a href="#story1" onclick="downloadStory('story1');" style="font-size: small; color: blue;">Download Story</a>
+    <p id="story1" style="display: none;">Nestled at the edge of the small town of Ravenswood, the Whispering Woods had long been the subject of local legends. Townsfolk spoke of eerie sounds and ghostly apparitions that appeared among the ancient trees. Few dared to venture into the forest after dark, but curiosity got the better of Mark and his friends.
+        One crisp autumn evening, Mark, Jenny, and Tom decided to explore the woods. They were drawn by the thrill of the unknown and the promise of debunking old myths. Armed with flashlights and a sense of bravado, they set off as the sun dipped below the horizon.
+        The path through the Whispering Woods was narrow and overgrown. Shadows danced in the flickering beams of their flashlights, and the air grew colder with each step. As they delved deeper, the forest seemed to close in around them, the trees whispering secrets to one another.
+        “This place is creepy,” Jenny whispered, her voice barely audible over the rustling leaves.
+        “Come on, it’s just a bunch of old stories,” Mark replied, trying to sound confident. “There’s nothing here to be afraid of.”
+        Suddenly, Tom stopped in his tracks. “Did you hear that?” he asked, his eyes wide with fear.
+        The group fell silent, straining to listen. At first, there was nothing but the sound of their own breathing. Then, faintly, they heard it—a soft, mournful whisper that seemed to come from all around them.
+        “Who’s there?” Mark called out, his voice trembling.
+        There was no response, only the continued whispering that grew louder and more insistent. The words were indistinct, like a chant carried on the wind. Fear began to creep into their hearts.
+        “We should go back,” Jenny urged, glancing nervously around.
+        As they turned to retrace their steps, the forest seemed to shift. The path they had taken was no longer visible, swallowed by the dense undergrowth. Panic set in as they realized they were lost.
+        Mark tried to keep calm. “Stay together. We’ll find our way out.”
+        The whispers grew louder, now accompanied by fleeting shadows that darted between the trees. Every rustle and snap of a twig made them jump. The sense of being watched was overwhelming.
+        Desperation set in as the night deepened. Their flashlights flickered, casting erratic beams of light that only heightened their terror. Jenny stumbled over a root and fell, her flashlight rolling away. As Mark and Tom helped her up, they heard a chilling laugh echo through the woods.
+        “What was that?” Tom’s voice quivered.
+        The laughter turned into a cacophony of voices, whispering, laughing, and crying. Shapes began to emerge from the darkness—pale, ghostly figures with hollow eyes that seemed to bore into their souls.
+        “We have to run!” Mark shouted.
+        They sprinted through the forest, dodging branches and leaping over obstacles. The voices pursued them, growing louder and more frenzied. It felt like an eternity before they burst through the tree line and into the safety of the open fields.
+        Gasping for breath, they looked back at the Whispering Woods. The trees stood silent and still, as if nothing had happened. But the memory of those whispers and the haunting figures remained etched in their minds.
+        From that night on, Mark, Jenny, and Tom never spoke of their experience. The Whispering Woods remained a place of mystery and fear, and the townsfolk continued to warn of the voices that called to those who dared to enter.        
+        </p>
+        <!-- Create a link to download the audiobook-->
+        <a href="Whispering Woods.mp3" download="Whispering Woods.mp3" style="font-size: small; color: blue;">Listen to the Audio</a>
+    </div>
+    <hr>
+    <div style="margin-bottom: 20px;">
+        <h3 style="color: white;">2. "The Mirror's Curse"</h3>
+        <img src="mirror.png" width="300" height="200">
+        <p style="color: white;">In a quaint antique shop, Laura is drawn to a beautiful yet ominous mirror said to reveal one's deepest fears and darkest secrets. Ignoring warnings of its curse, she brings it home, only to confront a twisted reflection that unleashes a haunting journey into her own past and fears, leaving her shattered and vowing never to underestimate such warnings again.</p>
+        <!-- Create a link to download the first story-->
+        <a href="#story2" onclick="downloadStory('story2');" style="font-size: small; color: blue;">Download Story</a>
+        <p id="story2" style="display: none;">In a quaint antique shop on the outskirts of town, among dusty shelves filled with forgotten relics, stood an ornate mirror. Its frame was gilded with intricate designs, and its glass was so clear it seemed to hold its own depth. The shop owner, Mr. Grayson, claimed it was a rare find from a distant estate, but there was something unsettling about it.
+            One rainy afternoon, a young woman named Laura entered the shop. She was a collector of antiques and loved discovering hidden treasures. The mirror caught her eye immediately. She was drawn to its beauty and the mysterious aura it seemed to emanate.
+            “How much for the mirror?” she asked, tracing her fingers along the gilded frame.
+            Mr. Grayson hesitated. “That mirror has a dark history. It’s said to be cursed.”
+            Laura laughed lightly. “Cursed? Really? What’s the story?”
+            “They say whoever owns the mirror sees things they shouldn’t. It shows you your deepest fears, your darkest secrets,” Mr. Grayson explained, his expression grave.
+            Intrigued rather than deterred, Laura decided to buy the mirror. She had always been skeptical of such stories and considered them mere superstitions. She paid Mr. Grayson and had the mirror delivered to her home.
+            That night, as thunder rumbled outside and rain lashed against the windows, Laura positioned the mirror in her bedroom. She admired its beauty before turning in for the night. Sleep came quickly, but it was restless.
+            In the middle of the night, Laura awoke with a start. She felt an unshakable urge to look at the mirror. The room was dark, but the mirror seemed to glow faintly, casting eerie shadows. As she approached it, she noticed her reflection wasn’t quite right. Her eyes in the mirror seemed to hold a life of their own, staring back at her with an intensity that made her skin crawl.
+            Suddenly, the reflection changed. It was no longer her own face she saw but a twisted, nightmarish version of herself. Her eyes were hollow, her skin pale and gaunt. The figure in the mirror began to move independently, raising a hand to point directly at Laura.
+            A cold chill ran down her spine. She tried to look away, but her gaze was locked on the horrific image. The room around her seemed to fade, and she was drawn into the mirror’s depths. Scenes from her past played out—moments she had long buried, mistakes she had made, and the guilt she carried.
+            The visions became more intense, showing her fears and insecurities in brutal clarity. She saw herself alone, abandoned, and consumed by darkness. Tears streamed down her face as she tried to break free from the mirror’s grasp, but it held her captive.
+            Desperate, Laura screamed and shattered the mirror with a nearby candlestick. The pieces fell to the floor, the spell broken. She collapsed, trembling and drenched in sweat. The room returned to normal, the mirror now a pile of broken glass.
+            The next day, Laura returned to the antique shop with the broken mirror. She demanded an explanation from Mr. Grayson.
+            “I warned you,” he said solemnly. “The mirror reveals the darkness within. It’s not meant to be owned.”
+            Laura left the shop, vowing never to underestimate such warnings again. The experience had shaken her to her core, and she could still feel the mirror’s curse lingering in her thoughts. She would never forget the night her own reflection turned against her, revealing the shadows that lurked within.
+            
+            </p>
+            <a href="Mirrors Curse.mp3" download="Mirrors Curse.mp3" style="font-size: small; color: blue;">Listen to the Audio</a>
+    </div>
+    <hr>
+    <div style="margin-bottom: 20px;">
+        <h3 style="color: white;">3. "The Haunting of Hollow House"</h3>
+        <img src="house.jpg" width="300" height="200">
+        <p style="color: white;">Four college friends brave the decaying mansion to debunk its ghost stories, only to encounter chilling manifestations of its tragic past. As they confront the malevolent force within, they must rely on each other and a spectral ally to escape the clutches of the house's dark history.</p>
+        <!-- Create a link to download the first story-->
+        <a href="#story3" onclick="downloadStory('story3');" style="font-size: small; color: blue;">Download Story</a>
+        <p id="story3" style="display: none;">Hollow House stood at the end of a lonely street, its dark silhouette a stark contrast against the moonlit sky. The old mansion had been abandoned for years, its once grand architecture now marred by decay. Local legend had it that the house was haunted by the restless spirits of its previous owners, the Hollow family.
+            Despite the warnings, a group of four college friends—Sarah, Mike, Jess, and Tom—decided to spend a night in the mansion as part of a dare. Armed with flashlights, cameras, and a Ouija board, they entered the house, ready to debunk the ghost stories.
+            The air inside was musty, and the floorboards creaked under their weight. Cobwebs hung from the ceiling, and the walls were covered in peeling wallpaper. The house had an oppressive atmosphere, as if it were alive and watching them.
+            “Creepy place,” Mike said, trying to mask his unease with bravado. “Let’s find a spot to set up.”
+            They chose the parlor, a large room with an old fireplace and dusty furniture. Sarah placed the Ouija board on a coffee table while the others set up their cameras. They sat around the board, hands lightly resting on the planchette.
+            “Is anyone here with us?” Sarah asked, her voice steady.
+            For a moment, nothing happened. Then, the planchette began to move slowly, spelling out “YES.”
+            “Who are you?” Jess asked, her eyes wide with excitement.
+            The planchette spelled out “HOLLOW.”
+            A chill ran through the group. They continued asking questions, learning that the spirit claimed to be Rebecca Hollow, the youngest daughter of the family. She warned them of a dark presence in the house—her father, who had gone mad and murdered the family before taking his own life.
+            Suddenly, the room grew colder, and the lights flickered. The fireplace, which had been cold and empty, burst into flames. A deep, menacing voice echoed through the room.
+            “Leave this place!”
+            Panic set in. The friends scrambled to gather their things, but the doors slammed shut, trapping them inside. The house seemed to come alive, the walls vibrating with an unseen force. Shadows moved independently, forming grotesque shapes that reached out to them.
+            Tom tried to force the door open, but it wouldn’t budge. “We need to get out of here, now!”
+            Sarah, desperate, shouted, “Rebecca, please help us!”
+            The flames in the fireplace roared higher, and the room shook violently. The friends huddled together, feeling the malevolent presence closing in. Just as they thought all hope was lost, a soft, ethereal light filled the room, and the shadows retreated.
+            </p>
+            <a href="Hollow House.mp3" download="Hollow House.mp3" style="font-size: small; color: blue;">Listen to the Audio</a>
+    </div>
+    <hr>
+    <div style="margin-bottom: 20px;">
+        <h3 style="color: white;">4. "The Dollmaker's Curse"</h3>
+        <img src="doll.jpg" width="300" height="200">
+        <p style="color: white;">In the secluded village of The Dollmaker’s Workshop, Clara's fascination with the eerie dolls leads her into a chilling encounter with the macabre secrets hidden within. As she delves deeper, she discovers the terrifying truth behind the lifelike creations and the ominous warnings of their reclusive maker, Mr. Amsel.</p>
+        <!-- Create a link to download the first story-->
+        <a href="#story4" onclick="downloadStory('story4');" style="font-size: small; color: blue;">Download Story</a>
+        <p id="story4" style="display: none;">In a small, forgotten village nestled deep in the mountains, there was an old, dilapidated shop known as The Dollmaker’s Workshop. The shop’s owner, Mr. Amsel, was a reclusive man who crafted dolls with uncanny lifelike features. The villagers avoided him, whispering rumors about his strange abilities.
+            One cold winter evening, a young woman named Clara ventured into the village. She was a writer seeking inspiration for her next book, and the mysterious village intrigued her. Despite the warnings from the villagers, Clara decided to visit The Dollmaker’s Workshop.
+            The shop was dimly lit, filled with shelves of dolls that seemed to stare at her with their glassy eyes. Each doll was meticulously crafted, their faces frozen in expressions of joy, sorrow, or fear. Clara felt a shiver run down her spine as she approached the counter where Mr. Amsel stood, his gaunt face partially hidden by shadows.
+            “Good evening,” Clara greeted, trying to mask her unease. “I’ve heard about your remarkable dolls. I’d like to buy one.”
+            Mr. Amsel’s piercing blue eyes studied her for a moment before he nodded. “Very well. Choose whichever one speaks to you.”
+            Clara wandered through the shop, her eyes drawn to a beautiful porcelain doll with auburn hair and striking green eyes. She picked it up, admiring the craftsmanship. The doll’s eyes seemed almost alive, and Clara felt an inexplicable connection to it.
+            “This one,” she said, placing the doll on the counter.
+            Mr. Amsel’s lips curled into a faint smile. “An excellent choice. But beware, Miss. My dolls carry a piece of the soul within them.”
+            Clara dismissed his warning as mere superstition and paid for the doll. She took it back to the small cottage she had rented and placed it on a shelf in her bedroom. That night, as the wind howled outside, Clara was awoken by a soft whispering sound.
+            She sat up in bed, her heart pounding. The whispering grew louder, and she realized it was coming from the doll. Clara’s blood ran cold as she saw the doll’s eyes glint in the moonlight. It slowly turned its head to face her, its mouth moving as if to speak.
+            Terrified, Clara grabbed the doll and threw it into a closet, slamming the door shut. She spent the rest of the night huddled under her covers, unable to sleep. The next morning, she cautiously opened the closet, only to find the doll sitting upright, its green eyes fixed on her.
+            Determined to rid herself of the cursed doll, Clara returned to The Dollmaker’s Workshop. She found the shop abandoned, its interior covered in dust and cobwebs. Mr. Amsel was nowhere to be found. Desperate, Clara decided to destroy the doll. She took it to the village square and set it on fire, watching as the flames consumed it.
+            But even as the doll burned, Clara heard its faint, haunting whispers. The villagers, seeing the fire, rushed to her aid, but it was too late. Clara’s mind was shattered by the experience, and she spent the rest of her days in the village asylum, haunted by the memory of the doll’s lifelike eyes and the whispers that never ceased.
+            </p>
+            <a href="Doll Maker.mp3" download="Doll Maker.mp3" style="font-size: small; color: blue;">Listen to the Audio</a>
+    </div>
+    <hr>
+    <div style="margin-bottom: 20px;">
+        <h3 style="color: white;">5. "The Phantom Train"</h3>
+        <img src="train.jpg" width="300" height="200">
+        <p style="color: white;">In the eerie town of Blackwater Falls, James embarks on a ghost-hunting quest to capture evidence of the legendary phantom train that haunts the area. As he confronts the spectral conductor and witnesses the tragic reenactment of the accident, James realizes the chilling truth behind the town's cursed history, leaving him forever haunted by the spectral warning he received.</p>
+        <!-- Create a link to download the first story-->
+        <a href="#story5" onclick="downloadStory('story5');" style="font-size: small; color: blue;">Download Story</a>
+        <p id="story5" style="display: none;">Every year, on the anniversary of a tragic railway accident, the town of Blackwater Falls was said to be haunted by the ghost of a train that had derailed and plunged into the ravine below. The accident had claimed the lives of all aboard, and the wreckage was never fully recovered.
+            One fateful evening, James, an amateur ghost hunter, arrived in Blackwater Falls, eager to capture proof of the phantom train. He had heard the tales and was determined to document the supernatural occurrence. Armed with cameras and recording equipment, he set up camp near the old railway bridge, the site of the accident.
+            As the clock struck midnight, a thick fog rolled in, blanketing the area in an eerie silence. James waited, his eyes fixed on the tracks. Suddenly, he heard the distant sound of a train whistle, its mournful cry echoing through the night. His heart raced as he saw a faint light in the distance, steadily growing brighter.
+            The phantom train materialized on the tracks, its carriages glowing with an otherworldly light. James could see the ghostly figures of the passengers inside, their faces etched with terror. The train moved soundlessly, its wheels gliding over the rusted rails.
+            James raised his camera, capturing the surreal scene. As the train approached the bridge, it began to slow, and he saw the spectral conductor at the helm, his eyes hollow and lifeless. The train came to a halt, and the conductor stepped down, walking towards James.
+            “Why have you come here?” the conductor’s voice was a hollow whisper.
+            James, trembling, managed to reply, “I wanted to see if the stories were true.”
+            The conductor’s eyes bore into him. “This place is cursed. Leave now, or you will join us in our eternal journey.”
+            James’s courage faltered as the conductor vanished, and the train began to move again. As it crossed the bridge, the carriages flickered and then plunged into the ravine, re-enacting the tragic accident. The sound of the crash echoed in the darkness, and then all was silent once more.
+            Shaken, James packed up his equipment and fled the site. When he reviewed his footage, he found nothing but static. The phantom train had left no trace, and the townsfolk refused to speak of it, their faces pale with fear.
+            James left Blackwater Falls, haunted by what he had witnessed. He could never forget the sight of the ghostly passengers and the warning of the spectral conductor. Every year, on the anniversary of the accident, he felt a chill run down his spine, knowing that the phantom train still roamed the tracks, forever trapped in its final, tragic journey.
+            </p>
+            <a href="Phantom Train.mp3" download="Phantom Train.mp3" style="font-size: small; color: blue;">Listen to the Audio</a>
+    </div>
+    <hr>
+    <div style="margin-bottom: 20px;">
+        <h3 style="color: white;">6. "The Shadow in the Attic"</h3>
+        <img src="attic.jpg" width="300" height="200">
+        <p style="color: white;">In the quiet town of Blackwood, the Murphy house stands abandoned, its dark reputation a magnet for ghost stories and dares among the locals. Sarah, drawn by her fascination with the supernatural, decides to explore the house alone, but what she encounters within its decaying walls will challenge her beliefs and haunt her nightmares forever.</p>
+        <!-- Create a link to download the first story-->
+        <a href="#story6" onclick="downloadStory('story6');" style="font-size: small; color: blue;">Download Story</a>
+        <p id="story6" style="display: none;">The old Murphy house had been abandoned for decades, its windows boarded up and its paint peeling. Local kids dared each other to approach it, whispering stories of strange noises and ghostly sightings. But none were brave enough to enter—except for one.
+            Sarah had always been fascinated by the paranormal. When her family moved to the small town, she couldn’t resist the allure of the haunted Murphy house. Determined to uncover its secrets, she devised a plan to explore the house alone.
+            One late afternoon, as the sun dipped below the horizon, Sarah slipped through a gap in the fence surrounding the property. She made her way to the back door, which creaked open with little resistance. Inside, the air was stale and thick with dust. Cobwebs hung in the corners, and the floorboards groaned under her weight.
+            Armed with a flashlight and her phone, Sarah ventured deeper into the house. She passed through the kitchen and living room, noting the decayed remnants of furniture and personal belongings. The stories she had heard about the house filled her mind, but she pressed on, determined to find proof of the supernatural.
+            As she reached the foot of the stairs, she heard a faint sound from above—a soft, rhythmic tapping. Her heart pounded in her chest, but curiosity drove her to climb the stairs. Each step creaked ominously, and the tapping grew louder.
+            At the top of the stairs, she found a narrow door leading to the attic. The sound was coming from within. Taking a deep breath, Sarah opened the door and shone her flashlight inside. The attic was cluttered with old furniture, trunks, and forgotten items. In the far corner, she saw a figure hunched over, tapping on the floor with long, bony fingers.
+            “Hello?” Sarah called out, her voice trembling.
+            The figure slowly turned to face her, revealing a gaunt, hollow-eyed visage. It was a man, or what remained of one, with skin stretched tight over his skeletal frame. His eyes glowed with an unnatural light, and his mouth twisted into a grim smile.
+            “Welcome, Sarah,” the shadowy figure rasped. “I’ve been waiting for you.”
+            Sarah’s blood ran cold. “How do you know my name?”
+            The figure rose, towering over her. “I know many things. I am the shadow that haunts this house, the remnant of its dark past.”
+            She took a step back, but the door slammed shut behind her. Panic set in as the figure advanced, its presence filling the room with a suffocating darkness.
+            “You cannot leave,” it whispered. “You belong to me now.”
+            Desperate, Sarah raised her flashlight and shone it directly at the figure. It recoiled, hissing, and the light seemed to weaken it. Summoning her courage, she lunged for the door and forced it open, stumbling down the stairs.
+            The house seemed to come alive, with shadows stretching and walls closing in. Sarah fought her way through the darkness, her flashlight flickering. She burst through the back door and into the fading daylight, gasping for air.
+            She didn’t stop running until she reached her home. Inside, she locked the doors and collapsed on the floor, her heart racing. The experience had left her shaken, but she had escaped the shadow’s grasp.
+            From that day on, Sarah vowed never to return to the Murphy house. The shadowy figure haunted her dreams, a constant reminder of the darkness that lurked within those walls. The house remained abandoned, its secrets untouched, and the legend of the shadow in the attic continued to send shivers down the spines of those who dared to speak of it.
+            </p>
+            <a href="Shadow Attic.mp3" download="Shadow Attic.mp3" style="font-size: small; color: blue;">Listen to the Audio</a>
+    </div>
+    <!-- Create a javascript option that allows the user to download our stories as textfiles-->
+    <!-- Javascript makes pages more interactive and more like a web app-->
+    <script>
+        //create a funtion that will take the story ID and download a text file for our user
+        function downloadStory(storyId){
+            var storyContent = document.getElementById(storyId).innerText;
+            //create a new blob object, or large blob of text
+            var blob = new Blob([storyContent], {type: "text/plain"})
+            //create a new URL link object that will contain the blob object
+            var link = document.createElement("a");
+            //set the link's href attribute to the URL object that contains the blob object
+            link.href = URL.createObjectURL(blob);
+            //Set the link's download attribute to the story title
+            link.download = storyId + ".txt";
+            //click the link to download the story
+            link.click();
+        }
+    </script>
+    </center>
+</body>
+</html>
